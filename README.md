@@ -16,6 +16,9 @@ This repository contains a collection of proof-of-concepts for various technolog
 - microservices
 - websockets
 - datadog
+- channels and routines
+
+![flow](./__fixture__/image.png)
 
 ## Services
 
@@ -29,7 +32,7 @@ A simple logger service that listens for log messages, prints them to the consol
 
 ### mailer
 
-A simple mailer service that listens for mail messages and sends them to a mail server.
+A simple mailer service that listens for mail messages and sends them to a mail server using channels and routines.
 
 ### websockets
 
@@ -42,5 +45,3 @@ A simple web app that serves a static web page and listens for messages from the
 ### cli
 
 A simple command line interface that sends messages to the publisher service.
-
-![flow](./__fixture__/image.png)
